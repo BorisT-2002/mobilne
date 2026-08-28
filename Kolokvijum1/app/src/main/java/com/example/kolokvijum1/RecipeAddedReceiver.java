@@ -6,11 +6,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.widget.Toast;
 
-/**
- * BroadcastReceiver koji osluskuje dodavanje recepta.
- * Vodi tekuci zbir vremena pripreme.
- * Kada zbir predje 120 minuta, ispisuje Toast "Predugo kuvanje!".
- */
+
 public class RecipeAddedReceiver extends BroadcastReceiver {
 
     private static final String PREFS_NAME = "RecipeReceiverPrefs";
