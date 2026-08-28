@@ -12,10 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-/**
- * Servis koji se pokrecE na svaki minut i proverava dozvolu kamere.
- * Ako je kamera dozvoljena, salje broadcast fragmentu da prikaze ImageView.
- */
+
 public class CameraCheckService extends Service {
 
     private static final long CHECK_INTERVAL_MS = 60 * 1000L; // 1 minut
