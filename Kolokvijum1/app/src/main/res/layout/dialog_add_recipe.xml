@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!-- Naziv recepta -->
+    
     <EditText
         android:id="@+id/et_recipe_name"
         android:layout_width="match_parent"
@@ -14,7 +14,7 @@
         android:inputType="text"
         android:layout_marginBottom="12dp" />
 
-    <!-- Vreme pripreme u minutima (brojcani tip) -->
+    
     <EditText
         android:id="@+id/et_prep_time"
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
         android:inputType="number"
         android:layout_marginBottom="12dp" />
 
-    <!-- Checkbox sa labelom Omiljeno -->
+    
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
 
     </LinearLayout>
 
-    <!-- Dugmad za potvrdu i odustajanje -->
+    
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
