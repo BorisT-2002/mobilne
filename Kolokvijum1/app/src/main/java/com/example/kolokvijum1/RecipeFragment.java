@@ -107,7 +107,7 @@ public class RecipeFragment extends Fragment {
             Recipe recipe = new Recipe(name, prepTime, isFavorite);
             adapter.addRecipe(recipe);
 
-            // Broadcast za RecipeAddedReceiver (eksplicitni broadcast)
+            
             Intent broadcastIntent = new Intent(ACTION_RECIPE_ADDED);
             broadcastIntent.setPackage(requireContext().getPackageName());
             broadcastIntent.putExtra(EXTRA_PREP_TIME, prepTime);
