@@ -26,10 +26,10 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        // Trazimo dozvolu za kameru
+        
         requestCameraPermission();
 
-        // Pokrecemo servis za proveru kamere
+        e
         Intent serviceIntent = new Intent(this, CameraCheckService.class);
         startService(serviceIntent);
     }
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                                            @NonNull String[] permissions,
                                            @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        // Servis ce detektovati dozvolu na sledecoj proveri
+        
     }
 
     @Override
