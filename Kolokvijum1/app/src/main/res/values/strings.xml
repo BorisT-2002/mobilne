@@ -1,0 +1,11 @@
+﻿<resources>
+    <string name="app_name">Kolokvijum1</string>
+    <string name="menu_recipe">Recipe</string>
+    <string name="btn_add">Dodaj</string>
+    <string name="btn_confirm">Potvrdi</string>
+    <string name="btn_cancel">Odustani</string>
+    <string name="hint_recipe_name">Naziv recepta</string>
+    <string name="hint_prep_time">Vreme pripreme (minuti)</string>
+    <string name="label_favorite">Omiljeno</string>
+    <string name="food_image">Slika hrane</string>
+</resources>
